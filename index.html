@@ -21,7 +21,15 @@
 
 <!--INICIA EL BODY-->
 <body>
-  
+	
+<!--SERVICIO EMAILJS: HABILITA EL ENVIAR EMAIL POR JS-->
+<script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+<script>
+(function(){
+  emailjs.init("kakcgMfjDtrGc6WnW"); //  EmailJS PUBLICID
+})();
+</script>
+	
 <header class="header">
   <div class="container">
     <nav class="navbar navbar-inverse" role="navigation">
@@ -385,37 +393,43 @@
 <!--#################################################################################################################################-->
  
 
-<!--Contact -->
+<!-- Contact -->
 <section id="contactMe" class="page-section secPad">
   <div class="container">
     <div class="row">
       <div class="heading"> 
-        <!-- Heading -->
         <h2>Conectemos y hagámoslo realidad!</h2>
-        <p>Gracias por visitar mi WEB.No dudes en contactarme.</p>
+        <p>Gracias por visitar mi WEB. No dudes en contactarme.</p>
       </div>
     </div>
+
     <div class="row mrgn30">
-      <form method="post" action="" id="contactfrm" role="form">
+      <form id="contactfrm" role="form">
+        
         <div class="col-sm-4">
           <div class="form-group">
             <label for="name">Name</label>
-            <input type="text" class="form-control" name="name" id="name" placeholder="Enter name" title="Please enter your name (at least 2 characters)">
+            <input type="text" class="form-control" name="name" id="name" placeholder="Enter name" required>
           </div>
+
           <div class="form-group">
-            <label for="email">Email</label>
-            <input type="email" class="form-control" name="email" id="email" placeholder="Enter email" title="Please enter a valid email address">
+            <label for="time">Hora</label>
+            <input type="text" class="form-control" name="time" id="time" readonly>
           </div>
         </div>
+
         <div class="col-sm-4">
           <div class="form-group">
             <label for="comments">Comments</label>
-            <textarea name="comment" class="form-control" id="comments" cols="3" rows="5" placeholder="Enter your message…" title="Please enter your message (at least 10 characters)"></textarea>
+            <textarea name="message" class="form-control" id="comments" cols="3" rows="5" placeholder="Enter your message…" required></textarea>
           </div>
-          <button name="submit" type="submit" class="btn btn-lg btn-primary" id="submit">Submit</button>
+
+          <button type="submit" class="btn btn-lg btn-primary">Submit</button>
           <div class="result"></div>
         </div>
+
       </form>
+
       <div class="col-sm-4">
         <h4>Address:</h4>
         <address>
@@ -423,6 +437,7 @@
         Las Cumbres Alhambra<br>
         Calle terranova Casa#1E <br>
         </address>
+
         <h4>Phone:</h4>
         <address>
         +507 68245977<br>
@@ -430,10 +445,35 @@
       </div>
     </div>
   </div>
-  <!--/.container--> 
 </section>
 <!--#################################################################################################################################-->
+	
+<!-- EmailJS -->
+<script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
 
+<script>
+(function(){
+  emailjs.init("kakcgMfjDtrGc6WnW"); // ← pega tu public key
+})();
+
+// poner hora automática
+document.getElementById("time").value = new Date().toLocaleString();
+
+// enviar formulario
+document.getElementById("contactfrm").addEventListener("submit", function(e) {
+  e.preventDefault();
+
+  emailjs.sendForm("service_8p2l778", "template_joi386o", this)
+    .then(function() {
+      document.querySelector(".result").innerHTML = "Mensaje enviado correctamente ✅";
+    }, function(error) {
+      document.querySelector(".result").innerHTML = "Error al enviar ❌";
+      console.error(error);
+    });
+});
+</script>
+
+	
 <!--/.page-section-->
 <footer class="copyright">
   <div class="container">
