@@ -1,0 +1,180 @@
+/* =========================
+   HERO SECTION
+========================= */
+
+.hero{
+    position: relative;
+    min-height: 100vh;
+    overflow: hidden;
+}
+
+/* Tu contenido principal por encima de las burbujas */
+
+.hero-content{
+    position: relative;
+    z-index: 2;
+}
+
+/* =========================
+   CONTENEDOR DE BURBUJAS
+========================= */
+
+.bubble-container{
+    position: absolute;
+
+    top: 0;
+    left: 0;
+
+    width: 100%;
+    height: 100%;
+
+    z-index: 1;
+}
+
+/* =========================
+   BURBUJA GENERAL
+========================= */
+
+.bubble{
+    position: absolute;
+
+    border-radius: 50%;
+
+    overflow: hidden;
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    border: 2px solid rgba(255,255,255,0.25);
+
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+
+    box-shadow:
+        inset 0 0 20px rgba(255,255,255,0.15),
+        0 0 15px rgba(255,255,255,0.10);
+
+    animation: float 8s ease-in-out infinite;
+
+    transition: all 0.4s ease;
+}
+
+/* Capa translúcida sobre la foto */
+
+.bubble::before{
+    content: "";
+
+    position: absolute;
+
+    top: 0;
+    left: 0;
+
+    width: 100%;
+    height: 100%;
+
+    border-radius: 50%;
+
+    background: rgba(255,255,255,0.30);
+
+    transition: all 0.4s ease;
+}
+
+/* =========================
+   HOVER
+========================= */
+
+.bubble:hover{
+    transform: scale(1.25);
+
+    box-shadow:
+        inset 0 0 30px rgba(255,255,255,0.25),
+        0 0 35px rgba(255,255,255,0.35);
+}
+
+.bubble:hover::before{
+    background: rgba(255,255,255,0.10);
+}
+
+/* =========================
+   IMÁGENES
+   CAMBIA SOLO LAS RUTAS
+========================= */
+
+.bubble1{
+    width: 220px;
+    height: 220px;
+
+    top: 15%;
+    left: 08%;
+
+     background-image: url('../images/itpic.jpg');
+}
+
+.bubble2{
+    width: 220px;
+    height: 220px;
+
+    top: 25%;
+    right: 8%;
+
+    animation-duration: 10s;
+
+ background-image: url('../images/netpic.jpg');
+}
+
+.bubble3{
+    width: 280px;
+    height: 280px;
+
+    bottom: 15%;
+    left: 25%;
+
+    animation-duration: 9s;
+
+    background-image: url('../images/elecpic.jpg');
+}
+
+.bubble4{
+    width: 260px;
+    height: 260px;
+
+    bottom: 10%;
+    right: 20%;
+
+    animation-duration: 12s;
+
+    background-image: url('../img/powerbi.jpg');
+}
+
+.bubble5{
+    width: 120px;
+    height: 120px;
+
+    top: 55%;
+    left: 60%;
+
+    animation-duration: 7s;
+
+    background-image: url('../img/laptop.jpg');
+}
+
+/* =========================
+   ANIMACIÓN FLOTANTE
+========================= */
+
+@keyframes float{
+
+    0%{
+        transform: translateY(0px);
+    }
+
+    50%{
+        transform: translateY(-25px);
+    }
+
+    100%{
+        transform: translateY(0px);
+    }
+
+}
