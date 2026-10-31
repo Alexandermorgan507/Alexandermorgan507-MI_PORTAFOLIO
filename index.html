@@ -1,510 +1,1088 @@
-<!doctype html> <!--facilita al navegador encontrar la pag-->
-<html lang="en-gb" class="no-js"> <!--indica lenguaje del sitio y configura  js dependiendo si el sitio tiene o no-->
-<head>  <!--cabeza (lo que no ve el usuario)-->
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-<title>Alexander-Website</title>
-<meta name="description" content="Mi portafolio de habilidades"> <!--Descripcion del sitio-->
-<meta name="author" content="Alexander Morgan "><!--author del sitio-->
-<link rel="stylesheet" href="css/bootstrap.min.css" />
-<link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
-<link rel="stylesheet" type="text/css" href="css/isotope.css" media="screen" />
-<link rel="stylesheet" href="js/fancybox/jquery.fancybox.css" type="text/css" media="screen" />
-<link rel="stylesheet" type="text/css" href="css/da-slider.css" />
-<link rel="stylesheet" href="css/styles.css" />
-<link rel="stylesheet" href="css/bubbles.css">
-<link rel="icon" href="favicon.ico">
-<!-- Font Awesome -->
-<!<link href="css/font-awesome.min.css" rel="stylesheet"> 
-	
-<link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-	
-</head><!--Termina la cabeza-->
+<!doctype html>
+<html lang="es" class="no-js">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Alexander Morgan | Ingeniero en Sistemas &amp; Soluciones Tecnológicas</title>
+  <meta name="description" content="Portafolio profesional de Alexander Morgan — Ingeniero en Sistemas y Computación especializado en Desarrollo Web, Bases de Datos SQL/Oracle, Redes, Cloud AWS e Infraestructura IT en Panamá.">
+  <meta name="author" content="Alexander Morgan">
+  <link rel="icon" href="favicon.ico">
 
-<!--#################################################################################################################################-->
+  <!-- Tipografía Moderna y Profesional -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@600;700&display=swap" rel="stylesheet">
 
-<!--INICIA EL BODY-->
+  <!-- Estilos Base y Librerías Existentes -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
+  <link rel="stylesheet" href="js/fancybox/jquery.fancybox.css" type="text/css" media="screen">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <!-- Estilos Personalizados Premium Dark Tech -->
+  <link rel="stylesheet" href="css/bubbles.css">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
 <body>
-<header class="header">
-  <div class="container">
-    <nav class="navbar navbar-inverse" role="navigation">
-      <div class="navbar-header">
-        <button type="button" id="nav-toggle" class="navbar-toggle" data-toggle="collapse" data-target="#main-nav"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
-        </div>
-		
-      <!--/.BARRA DE NAVEGACION-->
-      <div id="main-nav" class="collapse navbar-collapse">
-        <ul class="nav navbar-nav" id="mainNav">
-          <li class="active"><a href="#home" class="scroll-link">Home</a></li>
-          <li><a href="#aboutMe" class="scroll-link">About Me</a></li>
-          <li><a href="#skills" class="scroll-link">Skills</a></li>
-          <li><a href="#experience" class="scroll-link">Experience</a></li>
-          <li><a href="#portfolio" class="scroll-link">Portfolio</a></li>
-          <li><a href="#contactMe" class="scroll-link">Contact Me</a></li>
-        </ul>
-      </div>
-      <!--/.navbar-collapse--> 
-    </nav>
-    <!--/.navbar--> 
+  <!-- Indicador Superior de Progreso de Scroll -->
+  <div class="scroll-progress-track" aria-hidden="true">
+    <div id="scroll-progress" class="scroll-progress-bar"></div>
   </div>
-  <!--/.container--> 
-</header>
-<!--/.header-->
-	
 
-<div id="#top"></div>
+  <div id="top"></div>
 
-<section id="home">
-	
-  <div class="banner-container"> <img src="images/banner-bg.jpg" alt="banner" />
-    <div class="container banner-content"> 
-            <div class="row">
-                <header class="centered">
-                    <h1>Alexander Morgan</h1>
-                    <p>Ingeniero en Sistemas y Computacion</p>
-                </header>
-
-
-                <div class="social-icons"> <!--aqui va  los iconos de las redes sociales que aparecen en el banner: X,FACEBOOK,WHATSAPP,LINKEDIN,INSTAGRAM-->
-				
-                        <a href="https://twitter.com/"><i class="fa fa-twitter"></i></a>                                    
-                        <a href="https://www.facebook.com/profile.php?id=100007186428955"><i class="fa fa-facebook"></i></a>
-						<a href="https://w.app/98pmkb"><i class="fa fa-whatsapp"></i></a>
-                        <a href="https://www.linkedin.com/in/alexander-morgan-64221a197/"><i class="fa fa-linkedin-square"></i></a>
-                       <a href="https://www.instagram.com/melloalex507/?hl=es-la"><i class="fa fa-instagram"></i></a>
-                        
-                        </div>
-
-    <p></p>
-<a href="https://drive.google.com/file/d/1FSyAZl3fN51zSif9i5gpGIJethRNSlMy/view?usp=sharing" target="_blank" style="display: flex; justify-content: center;">
-  <img src="images/cvicon.png" alt="CV">
-</a>
-
- </div> 
-  </div>
-</section>
-<section id="introText">
-  <div class="container">
-    <div>
-      <h1>Soy ingeniero en sistemas con una pasión por la tecnologia y crear experiencias de usuario intuitivas y visualmente atractivas</h1>
-      <p></p>
-    </div>
-  </div>
-</section>
-<!--About-->
-
-<section id="aboutMe">
-  <div class="container">
-    <div class="row"> 
-      <!-- item -->
-	  <br/>
-      <br/>
-      <div class="col-md-4 tileBox"> <img src="images/photo-1.jpg" alt="me"/> </div>
-	<br>
-      <div class="col-md-8 tileBox">
-        <div class="txtHead">
-          <h2>Hola,Soy Alexander Morgan...</h2>
-          <h3> Web UI/UX Designer/Front End y Backend Developer/ Network Solutions/DB solutions/IT Solutions Based in Panama.</h3>
-        </div>
-        <p>Comprometido con el aprendizaje continuo en tecnologías emergentes y su aplicación práctica . <br/>
-		  pongo a disposicion mi conocimiento y cualidades
-          para formar parte de la empresa o proyecto para crear juntos soluciones integrales que puedan satisfacer las necesidades requeridas del mercado.</p>
-          <br/>
-		 <br/>
-         
-      </div>
-      <!-- end: --> 
-    </div>
-  </div>
-</section>
-<!--Quote-->
-<section id="quote" class="bg-parlex">
-  <div class="parlex-back">
+  <!-- =====================================================================
+       NAVEGACIÓN PRINCIPAL
+       ===================================================================== -->
+  <header class="header">
     <div class="container">
-     <div class="row">
-	<div class="col-md-12"><h2>“Dreams are extremely important. You can’t do it unless you imagine it.” <span>-George Lucas</span></h2></div>
+      <nav class="navbar navbar-inverse" role="navigation" aria-label="Navegación principal">
+        <div class="nav-flex-wrap">
+          <div class="navbar-header">
+            <a href="#home" class="brand-logo scroll-link">
+              <span class="brand-mark">&lt;AM/&gt;</span>
+              <span class="brand-name">Alexander<span>.dev</span></span>
+            </a>
+            <button type="button" id="nav-toggle" class="navbar-toggle" data-toggle="collapse" data-target="#main-nav" aria-label="Abrir menú de navegación">
+              <span class="sr-only">Alternar navegación</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+          </div>
+
+          <div id="main-nav" class="collapse navbar-collapse">
+            <ul class="nav navbar-nav" id="mainNav">
+              <li class="active"><a href="#home" class="scroll-link">Inicio</a></li>
+              <li><a href="#aboutMe" class="scroll-link">Sobre Mí</a></li>
+              <li><a href="#skills" class="scroll-link">Habilidades</a></li>
+              <li><a href="#certifications" class="scroll-link">Certificaciones</a></li>
+              <li><a href="#experience" class="scroll-link">Experiencia</a></li>
+              <li><a href="#portfolio" class="scroll-link">Proyectos</a></li>
+              <li><a href="#contactMe" class="scroll-link">Contacto</a></li>
+              <li class="nav-cta-item">
+                <a href="https://drive.google.com/file/d/1FSyAZl3fN51zSif9i5gpGIJethRNSlMy/view?usp=sharing" target="_blank" rel="noopener noreferrer" class="nav-cv-btn">
+                  <i class="fa fa-file-pdf-o"></i> CV
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <!-- =====================================================================
+       SECCIÓN HERO (#home)
+       ===================================================================== -->
+  <section id="home" class="hero-section">
+    <div class="hero-bg-image" aria-hidden="true"></div>
+    <div class="hero-bg-vignette" aria-hidden="true"></div>
+
+    <!-- Elementos Tecnológicos Ambientales con Parallax Sutil -->
+    <div class="hero-ambient" aria-hidden="true">
+      <div class="cyber-grid"></div>
+      <div class="ambient-orb orb-cyan" data-parallax="0.14"></div>
+      <div class="ambient-orb orb-blue" data-parallax="-0.10"></div>
+      <div class="ambient-orb orb-indigo" data-parallax="0.07"></div>
+    </div>
+
+    <div class="container hero-container">
+      <div class="row hero-row">
+        <!-- Columna Principal de Presentación -->
+        <div class="col-md-7" data-reveal="fade-up">
+          <div class="status-pill">
+            <span class="status-dot"></span>
+            <span>Disponible para proyectos e innovación tecnológica · Panamá</span>
+          </div>
+
+          <h1 class="hero-title">Alexander Morgan</h1>
+          <div class="hero-role">Ingeniero en Sistemas y Computación</div>
+
+          <p class="hero-lead">
+            Diseño y construyo soluciones tecnológicas integrales que conectan <strong>desarrollo de software</strong>, <strong>arquitectura de bases de datos</strong>, <strong>redes</strong> e <strong>infraestructura IT empresarial</strong> con experiencias de usuario claras, ágiles y confiables.
+          </p>
+
+          <div class="hero-specialties">
+            <span class="specialty-chip"><i class="fa fa-database"></i> SQL · Oracle · SQL Server</span>
+            <span class="specialty-chip"><i class="fa fa-code"></i> Desarrollo Web Frontend &amp; Backend</span>
+            <span class="specialty-chip"><i class="fa fa-sitemap"></i> Redes &amp; Conectividad</span>
+            <span class="specialty-chip"><i class="fa fa-cloud"></i> AWS Cloud &amp; Soporte IT</span>
+          </div>
+
+          <div class="hero-cta-group">
+            <a href="#portfolio" class="btn-cyber-primary scroll-link">
+              <span>Ver Mis Proyectos</span>
+              <i class="fa fa-arrow-right"></i>
+            </a>
+            <a href="https://drive.google.com/file/d/1FSyAZl3fN51zSif9i5gpGIJethRNSlMy/view?usp=sharing" target="_blank" rel="noopener noreferrer" class="btn-cyber-outline">
+              <i class="fa fa-download"></i>
+              <span>Descargar CV</span>
+            </a>
+          </div>
+
+          <div class="hero-social-bar">
+            <span class="hero-social-label">Conecta:</span>
+            <a href="https://www.linkedin.com/in/alexander-morgan-64221a197/" target="_blank" rel="noopener noreferrer" class="social-pill" aria-label="LinkedIn" title="LinkedIn">
+              <i class="fa fa-linkedin"></i>
+            </a>
+            <a href="https://w.app/98pmkb" target="_blank" rel="noopener noreferrer" class="social-pill" aria-label="WhatsApp" title="WhatsApp">
+              <i class="fa fa-whatsapp"></i>
+            </a>
+            <a href="https://twitter.com/" target="_blank" rel="noopener noreferrer" class="social-pill" aria-label="X / Twitter" title="X / Twitter">
+              <i class="fa fa-twitter"></i>
+            </a>
+            <a href="https://www.instagram.com/melloalex507/?hl=es-la" target="_blank" rel="noopener noreferrer" class="social-pill" aria-label="Instagram" title="Instagram">
+              <i class="fa fa-instagram"></i>
+            </a>
+            <a href="https://www.facebook.com/profile.php?id=100007186428955" target="_blank" rel="noopener noreferrer" class="social-pill" aria-label="Facebook" title="Facebook">
+              <i class="fa fa-facebook"></i>
+            </a>
+            <a href="mailto:alexandermorganzx@gmail.com" class="social-pill" aria-label="Enviar correo" title="alexandermorganzx@gmail.com">
+              <i class="fa fa-envelope-o"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- Columna Visual Tecnológica con Elementos Flotantes -->
+        <div class="col-md-5" data-reveal="fade-left">
+          <div class="hero-visual-wrap">
+            <!-- Badges Tecnológicos Flotantes -->
+            <div class="floating-badge badge-pos-1">
+              <i class="fa fa-certificate"></i>
+              <div class="badge-meta">
+                <span class="badge-title">Oracle Certified</span>
+                <span class="badge-sub">Database SQL Associate</span>
+              </div>
+            </div>
+
+            <div class="floating-badge badge-pos-2">
+              <i class="fa fa-cloud"></i>
+              <div class="badge-meta">
+                <span class="badge-title">AWS Cloud</span>
+                <span class="badge-sub">Foundations Trained</span>
+              </div>
+            </div>
+
+            <div class="floating-badge badge-pos-3">
+              <i class="fa fa-server"></i>
+              <div class="badge-meta">
+                <span class="badge-title">Redes &amp; Infra IT</span>
+                <span class="badge-sub">AD · VPN · Cisco · Starlink</span>
+              </div>
+            </div>
+
+            <div class="floating-badge badge-pos-4">
+              <i class="fa fa-code-fork"></i>
+              <div class="badge-meta">
+                <span class="badge-title">Desarrollo &amp; BI</span>
+                <span class="badge-sub">React · Python · Power BI</span>
+              </div>
+            </div>
+
+            <!-- Tarjeta Consola de Ingeniería -->
+            <div class="tech-console-card">
+              <div class="console-topbar">
+                <div class="console-dots">
+                  <span></span><span></span><span></span>
+                </div>
+                <span class="console-filename">alexander_profile.config.json</span>
+              </div>
+
+              <div class="console-body">
+                <div class="console-profile-head">
+                  <img src="images/photo-1.jpg" alt="Alexander Morgan" class="console-avatar">
+                  <div class="console-identity">
+                    <h3>Alexander Morgan</h3>
+                    <p>@Systems_Engineer · PA</p>
+                  </div>
+                </div>
+
+                <div class="console-code-block">
+                  <div>{</div>
+                  <div>&nbsp;&nbsp;<span class="code-key">"enfoque"</span>: <span class="code-str">"Soluciones Integrales"</span>,</div>
+                  <div>&nbsp;&nbsp;<span class="code-key">"stack"</span>: [<span class="code-str">"SQL"</span>, <span class="code-str">"React"</span>, <span class="code-str">"Python"</span>, <span class="code-str">"AWS"</span>],</div>
+                  <div>&nbsp;&nbsp;<span class="code-key">"infraestructura"</span>: <span class="code-str">"Redes, AD &amp; Cloud"</span>,</div>
+                  <div>&nbsp;&nbsp;<span class="code-key">"estado"</span>: <span class="code-accent">"Listo para innovar"</span></div>
+                  <div>}</div>
+                </div>
+
+                <div class="console-metrics">
+                  <div class="metric-box">
+                    <span class="metric-val">2+</span>
+                    <span class="metric-lbl">Certificaciones</span>
+                  </div>
+                  <div class="metric-box">
+                    <span class="metric-val">4</span>
+                    <span class="metric-lbl">Áreas Tech</span>
+                  </div>
+                  <div class="metric-box">
+                    <span class="metric-val">100%</span>
+                    <span class="metric-lbl">Compromiso</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
-    <!--/.container--> 
-  </div>
-</section>
+  </section>
 
-<!--seccion donde detallo mis habilidades (Skills)-->
-<section id="skills" class="secPad white">
-  <div class="container">
-    <div class="heading "> 
-      <!-- Heading -->
-      <h2>My Skills</h2>
-      <p>tecnologias con las cuales me he familiarisado y poseo conocimientos solidos para llevar a cabo proyectos. </p>
+  <!-- =====================================================================
+       SECCIÓN SOBRE MÍ (#aboutMe)
+       ===================================================================== -->
+  <section id="aboutMe" class="sec-tech sec-alt">
+    <div class="container">
+      <div class="section-header" data-reveal="fade-up">
+        <span class="section-eyebrow"><i class="fa fa-user-o"></i> Perfil Profesional</span>
+        <h2 class="section-title">Sobre <span class="text-gradient">Mí</span></h2>
+        <p class="section-subtitle">
+          Ingeniero en Sistemas con visión multidisciplinaria, apasionado por transformar retos operativos y de software en soluciones eficientes, escalables y bien diseñadas.
+        </p>
+      </div>
+
+      <div class="row">
+        <div class="col-md-4" data-reveal="fade-right">
+          <div class="about-photo-frame">
+            <div class="about-photo-glow" aria-hidden="true"></div>
+            <div class="about-photo-card">
+              <img src="images/photo-1.jpg" alt="Retrato profesional de Alexander Morgan" loading="lazy" decoding="async">
+              <div class="about-location-tag">
+                <i class="fa fa-map-marker"></i>
+                <span>Ciudad de Panamá, Panamá</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-8 about-content" data-reveal="fade-left">
+          <h2>Hola, soy Alexander Morgan</h2>
+          <div class="about-role-subtitle">
+            Web UI/UX Designer · Frontend &amp; Backend Developer · Network Solutions · Database Solutions · IT Specialist
+          </div>
+
+          <p>
+            Soy Ingeniero en Sistemas y Computación comprometido con el aprendizaje continuo en tecnologías emergentes y su aplicación práctica en entornos reales. Disfruto tanto crear experiencias de usuario intuitivas y modernas como estructurar bases de datos robustas y garantizar la continuidad operativa de redes y sistemas empresariales.
+          </p>
+          <p>
+            Pongo a disposición mi conocimiento técnico, adaptabilidad y enfoque resolutivo para aportar valor inmediato a tu empresa o proyecto, desarrollando soluciones integrales alineadas con las exigencias actuales del mercado.
+          </p>
+
+          <div class="about-pillars-grid" data-stagger="90">
+            <div class="pillar-card" data-reveal="fade-up">
+              <div class="pillar-icon"><i class="fa fa-laptop"></i></div>
+              <div>
+                <h4>Desarrollo Web &amp; UI/UX</h4>
+                <p>Interfaces limpias, responsivas y aplicaciones funcionales en frontend y backend.</p>
+              </div>
+            </div>
+
+            <div class="pillar-card" data-reveal="fade-up">
+              <div class="pillar-icon"><i class="fa fa-database"></i></div>
+              <div>
+                <h4>Bases de Datos &amp; Analítica</h4>
+                <p>Modelado SQL, consultas optimizadas en Oracle/SQL Server y tableros en Power BI.</p>
+              </div>
+            </div>
+
+            <div class="pillar-card" data-reveal="fade-up">
+              <div class="pillar-icon"><i class="fa fa-sitemap"></i></div>
+              <div>
+                <h4>Redes &amp; Conectividad</h4>
+                <p>Cableado estructurado, configuración de racks, VPN, monitoreo Nagios y enlaces Starlink.</p>
+              </div>
+            </div>
+
+            <div class="pillar-card" data-reveal="fade-up">
+              <div class="pillar-icon"><i class="fa fa-shield"></i></div>
+              <div>
+                <h4>Infraestructura &amp; Soporte IT</h4>
+                <p>Active Directory, Microsoft 365, seguridad endpoint, gestión de activos y hardware.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Cita Inspiradora Integrada -->
+      <div id="quote" class="quote-glass-banner" data-reveal="zoom-in">
+        <div class="quote-icon-box" aria-hidden="true">
+          <i class="fa fa-quote-left"></i>
+        </div>
+        <div class="quote-text-wrap">
+          <blockquote>
+            “Dreams are extremely important. You can’t do it unless you imagine it.”
+          </blockquote>
+          <cite>— George Lucas</cite>
+        </div>
+      </div>
     </div>
-   
-<div class="row skillContainer text-center">
+  </section>
 
-  <div class="col-md-2 col-sm-4 col-xs-6">
-    <div class="skill-icon">
-      
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/oracle/oracle-original.svg" />
-          
-      
+  <!-- =====================================================================
+       SECCIÓN HABILIDADES TÉCNICAS (#skills)
+       ===================================================================== -->
+  <section id="skills" class="sec-tech">
+    <div class="container">
+      <div class="section-header" data-reveal="fade-up">
+        <span class="section-eyebrow"><i class="fa fa-sliders"></i> Competencias Técnicas</span>
+        <h2 class="section-title">Habilidades &amp; <span class="text-gradient">Tecnologías</span></h2>
+        <p class="section-subtitle">
+          Tecnologías y herramientas con las que poseo bases sólidas para diseñar, implementar y mantener proyectos de software, datos e infraestructura.
+        </p>
+      </div>
+
+      <div class="row">
+        <!-- Barras de Dominio Animadas al Entrar en Pantalla -->
+        <div class="col-md-5 skills-panel-gap" data-reveal="fade-right">
+          <div class="skills-panel" id="skills-bars-wrapper">
+            <h3 class="skills-panel-title">
+              <i class="fa fa-bar-chart"></i> Dominio por Especialidad
+            </h3>
+
+            <div class="skill-bar-item">
+              <div class="skill-bar-header">
+                <span class="skill-bar-name">Infraestructura IT, Soporte &amp; Active Directory</span>
+                <span class="skill-bar-pct">0%</span>
+              </div>
+              <div class="skill-bar-track">
+                <div class="skill-bar-fill" data-level="95"></div>
+              </div>
+            </div>
+
+            <div class="skill-bar-item">
+              <div class="skill-bar-header">
+                <span class="skill-bar-name">Bases de Datos SQL (Oracle, SQL Server, MySQL)</span>
+                <span class="skill-bar-pct">0%</span>
+              </div>
+              <div class="skill-bar-track">
+                <div class="skill-bar-fill" data-level="92"></div>
+              </div>
+            </div>
+
+            <div class="skill-bar-item">
+              <div class="skill-bar-header">
+                <span class="skill-bar-name">Redes, Cableado Estructurado &amp; Monitoreo</span>
+                <span class="skill-bar-pct">0%</span>
+              </div>
+              <div class="skill-bar-track">
+                <div class="skill-bar-fill" data-level="88"></div>
+              </div>
+            </div>
+
+            <div class="skill-bar-item">
+              <div class="skill-bar-header">
+                <span class="skill-bar-name">Analítica de Datos (Power BI &amp; Excel)</span>
+                <span class="skill-bar-pct">0%</span>
+              </div>
+              <div class="skill-bar-track">
+                <div class="skill-bar-fill" data-level="86"></div>
+              </div>
+            </div>
+
+            <div class="skill-bar-item">
+              <div class="skill-bar-header">
+                <span class="skill-bar-name">Desarrollo Web &amp; Programación (JS, React, Python)</span>
+                <span class="skill-bar-pct">0%</span>
+              </div>
+              <div class="skill-bar-track">
+                <div class="skill-bar-fill" data-level="85"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Cuadrícula Interactiva de Herramientas -->
+        <div class="col-md-7" data-reveal="fade-left">
+          <div class="skills-panel">
+            <h3 class="skills-panel-title">
+              <i class="fa fa-cubes"></i> Ecosistema Tecnológico
+            </h3>
+
+            <div class="tech-stack-grid" data-stagger="65">
+              <div class="tech-card" data-reveal="fade-up">
+                <div class="tech-icon-wrap">
+                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/oracle/oracle-original.svg" alt="Oracle Database" loading="lazy">
+                </div>
+                <span class="tech-card-name">Oracle DB</span>
+                <span class="tech-card-cat">Base de Datos</span>
+              </div>
+
+              <div class="tech-card" data-reveal="fade-up">
+                <div class="tech-icon-wrap">
+                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/microsoftsqlserver/microsoftsqlserver-original-wordmark.svg" alt="Microsoft SQL Server" loading="lazy">
+                </div>
+                <span class="tech-card-name">SQL Server</span>
+                <span class="tech-card-cat">Base de Datos</span>
+              </div>
+
+              <div class="tech-card" data-reveal="fade-up">
+                <div class="tech-icon-wrap">
+                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original-wordmark.svg" alt="MySQL" loading="lazy">
+                </div>
+                <span class="tech-card-name">MySQL</span>
+                <span class="tech-card-cat">Base de Datos</span>
+              </div>
+
+              <div class="tech-card" data-reveal="fade-up">
+                <div class="tech-icon-wrap">
+                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" alt="JavaScript" loading="lazy">
+                </div>
+                <span class="tech-card-name">JavaScript</span>
+                <span class="tech-card-cat">Desarrollo</span>
+              </div>
+
+              <div class="tech-card" data-reveal="fade-up">
+                <div class="tech-icon-wrap">
+                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original-wordmark.svg" alt="React" loading="lazy">
+                </div>
+                <span class="tech-card-name">React</span>
+                <span class="tech-card-cat">Frontend UI</span>
+              </div>
+
+              <div class="tech-card" data-reveal="fade-up">
+                <div class="tech-icon-wrap">
+                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" alt="Python" loading="lazy">
+                </div>
+                <span class="tech-card-name">Python</span>
+                <span class="tech-card-cat">Backend / Scripts</span>
+              </div>
+
+              <div class="tech-card" data-reveal="fade-up">
+                <div class="tech-icon-wrap">
+                  <img src="images/powerbi.png" alt="Power BI" loading="lazy">
+                </div>
+                <span class="tech-card-name">Power BI</span>
+                <span class="tech-card-cat">Business Intel</span>
+              </div>
+
+              <div class="tech-card" data-reveal="fade-up">
+                <div class="tech-icon-wrap">
+                  <img src="images/excel.png" alt="Microsoft Excel" loading="lazy">
+                </div>
+                <span class="tech-card-name">Excel</span>
+                <span class="tech-card-cat">Análisis Datos</span>
+              </div>
+
+              <div class="tech-card" data-reveal="fade-up">
+                <div class="tech-icon-wrap">
+                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-plain-wordmark.svg" alt="Git" loading="lazy">
+                </div>
+                <span class="tech-card-name">Git</span>
+                <span class="tech-card-cat">Control Versiones</span>
+              </div>
+
+              <div class="tech-card" data-reveal="fade-up">
+                <div class="tech-icon-wrap">
+                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/windows11/windows11-original-wordmark.svg" alt="Windows & Active Directory" loading="lazy">
+                </div>
+                <span class="tech-card-name">Windows / AD</span>
+                <span class="tech-card-cat">Sistemas &amp; IT</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
-  </div>
+  </section>
 
-  <div class="col-md-2 col-sm-4 col-xs-6">
-    <div class="skill-icon">
-     
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original-wordmark.svg" />
-          
-     
+  <!-- =====================================================================
+       SECCIÓN CERTIFICACIONES (#certifications)
+       ===================================================================== -->
+  <section id="certifications" class="sec-tech sec-spotlight">
+    <div class="container">
+      <div class="section-header" data-reveal="fade-up">
+        <span class="section-eyebrow"><i class="fa fa-check-circle-o"></i> Credenciales Oficiales</span>
+        <h2 class="section-title">Certificaciones <span class="text-gradient">Internacionales</span></h2>
+        <p class="section-subtitle">
+          Respaldo académico e industrial en administración de bases de datos relacionales y arquitectura de servicios en la nube.
+        </p>
+      </div>
+
+      <div class="cert-grid" data-stagger="140">
+        <!-- Oracle Database SQL Certified Associate -->
+        <article class="cert-card" data-reveal="fade-up">
+          <a href="images/oracle.jpg" class="fancybox cert-badge-showcase" title="Oracle Certified Associate - Oracle Database SQL">
+            <img src="images/oracle.jpg" alt="Insignia Oracle Certified Associate - Oracle Database SQL" loading="lazy" decoding="async">
+          </a>
+          <span class="cert-issuer"><i class="fa fa-shield"></i> Oracle University</span>
+          <h3>Oracle Certified Associate — Database SQL</h3>
+          <p>
+            Acredita dominio sólido del lenguaje SQL, modelado relacional, consultas complejas (JOINs, subconsultas, funciones analíticas), manipulación transaccional DDL/DML y gestión de objetos de esquemas en Oracle Database.
+          </p>
+          <div class="cert-tags">
+            <span class="tech-tag">Oracle SQL</span>
+            <span class="tech-tag">Modelado RDBMS</span>
+            <span class="tech-tag">Consultas Avanzadas</span>
+            <span class="tech-tag">DDL &amp; DML</span>
+          </div>
+        </article>
+
+        <!-- AWS Academy Cloud Foundations -->
+        <article class="cert-card" data-reveal="fade-up">
+          <a href="images/aws.png" class="fancybox cert-badge-showcase" title="AWS Academy Graduate - Cloud Foundations Trained">
+            <img src="images/aws.png" alt="Insignia AWS Academy Cloud Foundations Trained" loading="lazy" decoding="async">
+          </a>
+          <span class="cert-issuer"><i class="fa fa-cloud"></i> Amazon Web Services (AWS Academy)</span>
+          <h3>AWS Academy — Cloud Foundations Trained</h3>
+          <p>
+            Valida conocimientos fundamentales en arquitectura cloud sobre AWS, aprovisionamiento de cómputo (Amazon EC2), almacenamiento (S3), redes virtuales (VPC), seguridad e identidad (IAM) y mejores prácticas de escalabilidad y costos.
+          </p>
+          <div class="cert-tags">
+            <span class="tech-tag">AWS Cloud</span>
+            <span class="tech-tag">Amazon EC2</span>
+            <span class="tech-tag">VPC &amp; IAM</span>
+            <span class="tech-tag">Arquitectura Cloud</span>
+          </div>
+        </article>
+      </div>
     </div>
-  </div>
-  
-  <div class="col-md-2 col-sm-4 col-xs-6">
-    <div class="skill-icon">      
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original-wordmark.svg" />
+  </section>
+
+  <!-- =====================================================================
+       SECCIÓN EXPERIENCIA PROFESIONAL (#experience)
+       ===================================================================== -->
+  <section id="experience" class="sec-tech sec-alt">
+    <div class="container">
+      <div class="section-header" data-reveal="fade-up">
+        <span class="section-eyebrow"><i class="fa fa-briefcase"></i> Trayectoria</span>
+        <h2 class="section-title">Experiencia <span class="text-gradient">Profesional</span></h2>
+        <p class="section-subtitle">
+          Prácticas profesionales, contratos y entornos corporativos donde he implementado soluciones reales de soporte empresarial, redes, servidores y desarrollo.
+        </p>
+      </div>
+
+      <div class="experience-timeline" data-stagger="130">
+        <!-- Experiencia 1: TVN -->
+        <article class="exp-timeline-item" data-reveal="fade-up">
+          <div class="exp-timeline-dot" aria-hidden="true"></div>
+          <div class="exp-card-modern">
+            <div class="exp-card-top">
+              <div class="exp-org-group">
+                <div class="exp-logo-box">
+                  <img src="images/client-3.png" alt="Logo TVN Televisora Nacional" loading="lazy">
+                </div>
+                <div class="exp-org-info">
+                  <h3>TVN (Televisora Nacional)</h3>
+                  <span class="exp-role-label">Soporte de Infraestructura IT, Sistemas &amp; Telecomunicaciones</span>
+                </div>
+              </div>
+              <span class="exp-type-badge">Entorno Corporativo</span>
+            </div>
+
+            <p>
+              Administración de usuarios y políticas en <strong>Active Directory</strong>, gestión de incidencias de ciberseguridad y consolas antivirus, así como asistencia remota especializada en conectividad <strong>VPN</strong> y soporte a usuarios mediante <strong>ServiceDesk</strong> y <strong>Endpoint Central</strong>. Gestión de inventario tecnológico, servidores de impresión, administración de buzones y licencias en <strong>Microsoft Office 365 y entornos On-Premise</strong>, preparación y reparación de hardware (laptops, desktops, tablets, Apple TV) e instalación de antenas satelitales <strong>Starlink</strong>.
+            </p>
+
+            <div class="cert-tags">
+              <span class="tech-tag">Active Directory</span>
+              <span class="tech-tag">Office 365 &amp; On-Premise</span>
+              <span class="tech-tag">ServiceDesk</span>
+              <span class="tech-tag">Endpoint Central</span>
+              <span class="tech-tag">VPN &amp; Seguridad</span>
+              <span class="tech-tag">Starlink</span>
+            </div>
+          </div>
+        </article>
+
+        <!-- Experiencia 2: Municipio de San Miguelito -->
+        <article class="exp-timeline-item" data-reveal="fade-up">
+          <div class="exp-timeline-dot" aria-hidden="true"></div>
+          <div class="exp-card-modern">
+            <div class="exp-card-top">
+              <div class="exp-org-group">
+                <div class="exp-logo-box">
+                  <img src="images/client-5.png" alt="Logo Municipio de San Miguelito" loading="lazy">
+                </div>
+                <div class="exp-org-info">
+                  <h3>Municipio de San Miguelito</h3>
+                  <span class="exp-role-label">Desarrollo Frontend, Monitoreo de Red &amp; Soporte IT</span>
+                </div>
+              </div>
+              <span class="exp-type-badge">Sector Público</span>
+            </div>
+
+            <p>
+              Participación en el diseño y ajuste de páginas web <strong>Frontend</strong>, instalación y configuración de servidor de monitoreo <strong>Nagios</strong> para supervisión de infraestructura, manejo de herramientas de edición digital y resolución integral de incidencias técnicas de tecnología para los distintos departamentos municipales.
+            </p>
+
+            <div class="cert-tags">
+              <span class="tech-tag">Servidor Nagios</span>
+              <span class="tech-tag">Desarrollo Frontend</span>
+              <span class="tech-tag">Monitoreo de Red</span>
+              <span class="tech-tag">Soporte Técnico IT</span>
+            </div>
+          </div>
+        </article>
+
+        <!-- Experiencia 3: INADEH -->
+        <article class="exp-timeline-item" data-reveal="fade-up">
+          <div class="exp-timeline-dot" aria-hidden="true"></div>
+          <div class="exp-card-modern">
+            <div class="exp-card-top">
+              <div class="exp-org-group">
+                <div class="exp-logo-box">
+                  <img src="images/client-1.png" alt="Logo INADEH" loading="lazy">
+                </div>
+                <div class="exp-org-info">
+                  <h3>INADEH (Tocumen y Ciudad del Saber)</h3>
+                  <span class="exp-role-label">Implementación de Redes &amp; Laboratorios de Cómputo</span>
+                </div>
+              </div>
+              <span class="exp-type-badge">Práctica Profesional</span>
+            </div>
+
+            <p>
+              Participación integral en el armado completo de salones y laboratorios tecnológicos en las sedes de Tocumen y Ciudad del Saber: tendido y canalización de <strong>cableado estructurado</strong>, organización de racks y patch panels, pruebas de continuidad de red y despliegue/configuración completa de las estaciones de trabajo.
+            </p>
+
+            <div class="cert-tags">
+              <span class="tech-tag">Cableado Estructurado</span>
+              <span class="tech-tag">Racks &amp; Patch Panels</span>
+              <span class="tech-tag">Redes LAN</span>
+              <span class="tech-tag">Despliegue de Equipos</span>
+            </div>
+          </div>
+        </article>
+      </div>
     </div>
-  </div>
+  </section>
 
-  <div class="col-md-2 col-sm-4 col-xs-6">
-    <div class="skill-icon">
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" />
-      <p>JavaScript</p>
-    </div>
-  </div>
+  <!-- =====================================================================
+       SECCIÓN PROYECTOS / PORTAFOLIO (#portfolio)
+       ===================================================================== -->
+  <section id="portfolio" class="sec-tech">
+    <div class="container">
+      <div class="section-header" data-reveal="fade-up">
+        <span class="section-eyebrow"><i class="fa fa-folder-open-o"></i> Portafolio Documentado</span>
+        <h2 class="section-title">Proyectos &amp; <span class="text-gradient">Implementaciones</span></h2>
+        <p class="section-subtitle">
+          Proyectos personales e implementaciones prácticas debidamente documentadas en desarrollo de software, bases de datos, nube, redes y soporte de infraestructura.
+        </p>
+      </div>
 
-  <div class="col-md-2 col-sm-4 col-xs-6">
-    <div class="skill-icon">
-      
-     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/windows11/windows11-original-wordmark.svg" />
-    </div>
-  </div>
-
-  <div class="col-md-2 col-sm-4 col-xs-6">
-    <div class="skill-icon">
-      
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-plain-wordmark.svg" />
-          
-    </div>
-  </div>
-
-<div class="col-md-2 col-sm-4 col-xs-6">
-  <div class="skill-icon">
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/microsoftsqlserver/microsoftsqlserver-original-wordmark.svg" />
-  </div>
-</div>
-
-<div class="col-md-2 col-sm-4 col-xs-6">
-  <div class="skill-icon">
- <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" />
-    <p>Python</p>
-  </div>
-</div>
-
-
-<div class="col-md-2 col-sm-4 col-xs-6">
-  <div class="skill-icon">
- <img src="images/powerbi.png"/>
-  </div>
-</div>
-
-
-<div class="col-md-2 col-sm-4 col-xs-6">
-  <div class="skill-icon">
-<img src="images/excel.png"/>
-  <p>Excel</p>
-  </div>
-</div>
-
-
-
-</div>
-
-
-
-
-<div class="col-sm-12">
-<h2 style="margin-bottom:50px;">Certifications</h2>
-  
-  <div style="display:flex; gap:150px; align-items:center;">
-
-    <div class="skill-icon">
-      <img src="images/oracle.jpg" alt="SQL Associate" class="skill-img" />
-    </div>
-
-    <div class="skill-icon">
-      <img src="images/aws.png" alt="aws" class="skill-img" />
-    </div>
-
-  </div>
-</div>
-  
-</section>
-<!--#################################################################################################################################-->
-
-
-<!--Experience-->
-<section id="experience" class="secPad">
-<div class="container">
-<div class="heading"> 
-  <!-- Heading -->
-  <h2>Experience</h2>
-  <br/>
-  <h4>Practicas Profesionales |Trabajo |Contratos !</h4>
-  <p>a lo largo de mis estudios y proyectos personales he podido adquirir muchos conocimientos ya se con practicas profesionales trabajos o personal.</p>
-</div>
-
-<div class="row">
-	<div class="col-md-3 col-sm-6">
-		<div class="exp-wrapper">
-			<img src="images/client-1.png" width="90" alt="Name">
-			<h3>INADEH</h3>
-			<p>En esta practica participe de el armado completo de salones desde la red hasta la configuracion de las computadoras en el inadeh de tocumen y ciudad del saber por lo cual fue una experiencia completa y gratificante .</p>
-		</div>
-	</div>
-	<div class="col-md-3 col-sm-6">
-		<div class="exp-wrapper">
-			<img src="images/client-5.png" width="90" alt="Name">
-			<h3>Municipio San Miguelito</h3>
-			<p>Aqui hice lo que fue un poco de manipulacion de sofwares de edicion algo de paginas web frontend, instalacion de servidor nagios y soluciones de it a problemas de usuarios. </p>
-		</div>
-	</div>
-	<div class="col-md-3 col-sm-6">
-		<div class="exp-wrapper">
-			<img src="images/client-3.png" width="90" alt="Name">
-			<h3>TVN(Televisora Nacional)</h3>
-			<p>En esta experiencia aprendi a manejar: active directory, gestionar incidencias de seguridad(antivirus etc),asistencia remota a usuarios con temas 
-				de conexion vpn y problemas en general mediante herramientas como servicedesk y endpointcentral, manejo de  inventario , servidores de impresion y correos office 365 y one premise
-				y sus distintos tipos de licencia. tambien a la reparacion y preparacion de equipos en general ya sea  laptops,desktops,tablets,apple tv y instalacion de  antenas starklink.
-			
-			</p>
-		</div>
-	</div>
-	<div class="col-md-3 col-sm-6">
-		<div class="exp-wrapper">
-			<img src="images/client-4.png" width="90" alt="Name">
-			<h3>none</h3>
-			<p>xxxxxxxxxx.</p>
-		</div>
-	</div>
-	 
-</div>		
-</section>
-<!--#################################################################################################################################-->
-
-<!--Portfolio-->
-<section id="portfolio" class="page-section section appear clearfix secPad">
-  <div class="container">
-    <div class="heading"> 
-      <!-- Heading -->
-      <h2>Portfolio</h2>
-      <p>En este portafolio encontraran informacion acerca de proyectos personales en diversas areas de tecnologia ya sea base de datos ,programacion,nube,it,networking etc,  como tambien experiencias que he desarollado a lo largo de mi vida(los proyectos estan debidamente documentados para facilitar la comprension de su lectura y el objetivo que se esperaba conseguir con los mismos).</p>
-    </div>
-    <div class="row">
-      <nav id="filter" class="col-md-12">
-        <ul>
-          <li><a href="#" class="current btn-theme btn-small" data-filter="*">All</a></li>
-          <li><a href="#" class="btn-theme btn-small" data-filter=".webdesign">Programacion</a></li>
-          <li><a href="#" class="btn-theme btn-small" data-filter=".photography">Redes</a></li>
-          <li><a href="#" class="btn-theme btn-small" data-filter=".print">IT</a></li>
+      <!-- Filtros Interactivos -->
+      <nav id="filter" aria-label="Filtrar proyectos por categoría" data-reveal="fade-up">
+        <ul class="portfolio-filter-nav">
+          <li><a href="#" class="current" data-filter="*"><i class="fa fa-th-large"></i> Todos</a></li>
+          <li><a href="#" data-filter=".webdesign"><i class="fa fa-code"></i> Programación &amp; Cloud</a></li>
+          <li><a href="#" data-filter=".photography"><i class="fa fa-sitemap"></i> Redes</a></li>
+          <li><a href="#" data-filter=".print"><i class="fa fa-wrench"></i> Infraestructura IT</a></li>
         </ul>
       </nav>
-      <div class="col-md-12">
-        <div class="row">
-          <div class="portfolio-items isotopeWrapper clearfix" id="3">
-            <article class="col-sm-4 isotopeItem webdesign">
-              <div class="portfolio-item"> <img src="images/portfolio/img1.jpg" alt="" />
-                <div class="portfolio-desc align-center">
-                  <div class="folio-info"> <a href="https://docs.google.com/presentation/d/1MDLVaJWedWGow0ygj6e3OXVzzO_FrK-f/edit?usp=sharing&ouid=116668856608026461531&rtpof=true&sd=true" class="fancybox">
-                    <h5>TwinSysolution</h5>
-                    <i class="fa fa-plus-square-o fa-2x"></i></a> </div>
+
+      <!-- Grid de Proyectos -->
+      <div class="projects-grid" data-stagger="95">
+        <!-- Proyecto 1: TwinSysolution (Documentado en Google Slides) -->
+        <article class="project-card webdesign" data-reveal="fade-up">
+          <div class="project-thumb-wrap">
+            <span class="project-cat-pill">Programación &amp; BD</span>
+            <img src="images/portfolio/img1.jpg" alt="Proyecto TwinSysolution con Visual Studio y SQL" loading="lazy" decoding="async">
+            <div class="project-hover-overlay">
+              <a href="https://docs.google.com/presentation/d/1MDLVaJWedWGow0ygj6e3OXVzzO_FrK-f/edit?usp=sharing&ouid=116668856608026461531&rtpof=true&sd=true" target="_blank" rel="noopener noreferrer" class="overlay-icon-btn" title="Abrir presentación documentada">
+                <i class="fa fa-external-link"></i>
+              </a>
+              <a href="images/portfolio/img1.jpg" class="fancybox overlay-icon-btn" title="Ver captura de TwinSysolution">
+                <i class="fa fa-search-plus"></i>
+              </a>
+            </div>
+          </div>
+          <div class="project-body">
+            <h3>TwinSysolution</h3>
+            <p>
+              Desarrollo de solución de software conectada a motor de base de datos relacional SQL, integrando lógica de negocio estructurada, formularios interactivos y persistencia segura de datos.
+            </p>
+            <div class="project-tech-list">
+              <span class="tech-tag">Visual Studio</span>
+              <span class="tech-tag">SQL Server</span>
+              <span class="tech-tag">Arquitectura BD</span>
+            </div>
+            <div class="project-actions">
+              <a href="https://docs.google.com/presentation/d/1MDLVaJWedWGow0ygj6e3OXVzzO_FrK-f/edit?usp=sharing&ouid=116668856608026461531&rtpof=true&sd=true" target="_blank" rel="noopener noreferrer" class="project-link-btn">
+                <span>Ver Documentación</span>
+                <i class="fa fa-external-link"></i>
+              </a>
+              <a href="images/portfolio/img1.jpg" class="fancybox project-link-secondary">
+                <i class="fa fa-expand"></i> Imagen
+              </a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Proyecto 2: IT Inadeh (Documentado en Google Slides) -->
+        <article class="project-card print photography" data-reveal="fade-up">
+          <div class="project-thumb-wrap">
+            <span class="project-cat-pill">Redes &amp; IT</span>
+            <img src="images/portfolio/img4.jpg" alt="Infraestructura de red y salones IT en INADEH" loading="lazy" decoding="async">
+            <div class="project-hover-overlay">
+              <a href="https://docs.google.com/presentation/d/10blvj51fqI7Xau5zdHfP7uNpaHEQT7cS/edit?usp=sharing&ouid=116668856608026461531&rtpof=true&sd=true" target="_blank" rel="noopener noreferrer" class="overlay-icon-btn" title="Abrir presentación documentada">
+                <i class="fa fa-external-link"></i>
+              </a>
+              <a href="images/portfolio/img4.jpg" class="fancybox overlay-icon-btn" title="Ver fotografías de implementación en INADEH">
+                <i class="fa fa-search-plus"></i>
+              </a>
+            </div>
+          </div>
+          <div class="project-body">
+            <h3>Infraestructura IT &amp; Redes — INADEH</h3>
+            <p>
+              Implementación física y lógica de laboratorios de cómputo: canalización, ponchado y testeo de puntos de red UTP, organización de gabinete de comunicaciones y puesta en marcha de equipos.
+            </p>
+            <div class="project-tech-list">
+              <span class="tech-tag">Rack &amp; Patch Panel</span>
+              <span class="tech-tag">Cableado UTP</span>
+              <span class="tech-tag">Testing LAN</span>
+            </div>
+            <div class="project-actions">
+              <a href="https://docs.google.com/presentation/d/10blvj51fqI7Xau5zdHfP7uNpaHEQT7cS/edit?usp=sharing&ouid=116668856608026461531&rtpof=true&sd=true" target="_blank" rel="noopener noreferrer" class="project-link-btn">
+                <span>Ver Documentación</span>
+                <i class="fa fa-external-link"></i>
+              </a>
+              <a href="images/portfolio/img4.jpg" class="fancybox project-link-secondary">
+                <i class="fa fa-expand"></i> Imagen
+              </a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Proyecto 3: Sistema de Cámaras IP PTZ (Documentado en Google Slides) -->
+        <article class="project-card print photography" data-reveal="fade-up">
+          <div class="project-thumb-wrap">
+            <span class="project-cat-pill">Seguridad IP &amp; IT</span>
+            <img src="images/portfolio/img7.jpg" alt="Instalación y configuración de cámaras de seguridad IP PTZ" loading="lazy" decoding="async">
+            <div class="project-hover-overlay">
+              <a href="https://docs.google.com/presentation/d/1xIZdQO0kKdrI7INU5ZFQRFK858r2uofV/edit?usp=sharing&ouid=116668856608026461531&rtpof=true&sd=true" target="_blank" rel="noopener noreferrer" class="overlay-icon-btn" title="Abrir presentación documentada">
+                <i class="fa fa-external-link"></i>
+              </a>
+              <a href="images/portfolio/img7.jpg" class="fancybox overlay-icon-btn" title="Ver capturas del proyecto PTZ">
+                <i class="fa fa-search-plus"></i>
+              </a>
+            </div>
+          </div>
+          <div class="project-body">
+            <h3>Sistema de Videovigilancia IP PTZ</h3>
+            <p>
+              Instalación en exteriores, direccionamiento en red y puesta en producción de cámaras Network HD PTZ con visualización remota en tiempo real, visión nocturna y control motorizado.
+            </p>
+            <div class="project-tech-list">
+              <span class="tech-tag">Cámaras HD PTZ</span>
+              <span class="tech-tag">Redes IP</span>
+              <span class="tech-tag">Monitoreo Remoto</span>
+            </div>
+            <div class="project-actions">
+              <a href="https://docs.google.com/presentation/d/1xIZdQO0kKdrI7INU5ZFQRFK858r2uofV/edit?usp=sharing&ouid=116668856608026461531&rtpof=true&sd=true" target="_blank" rel="noopener noreferrer" class="project-link-btn">
+                <span>Ver Documentación</span>
+                <i class="fa fa-external-link"></i>
+              </a>
+              <a href="images/portfolio/img7.jpg" class="fancybox project-link-secondary">
+                <i class="fa fa-expand"></i> Imagen
+              </a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Proyecto 4: Laboratorio Cloud AWS EC2 -->
+        <article class="project-card webdesign" data-reveal="fade-up">
+          <div class="project-thumb-wrap">
+            <span class="project-cat-pill">Cloud Computing</span>
+            <img src="images/pcpic.jpg" alt="Despliegue de instancias Amazon EC2 en AWS" loading="lazy" decoding="async">
+            <div class="project-hover-overlay">
+              <a href="images/pcpic.jpg" class="fancybox overlay-icon-btn" title="Ampliar vista del entorno AWS EC2">
+                <i class="fa fa-search-plus"></i>
+              </a>
+            </div>
+          </div>
+          <div class="project-body">
+            <h3>Despliegue de Instancias en AWS EC2</h3>
+            <p>
+              Configuración práctica de máquinas virtuales en Amazon Web Services, definición de grupos de seguridad, llaves de acceso y aprovisionamiento de recursos escalables en la nube.
+            </p>
+            <div class="project-tech-list">
+              <span class="tech-tag">AWS EC2</span>
+              <span class="tech-tag">Security Groups</span>
+              <span class="tech-tag">Cloud Infra</span>
+            </div>
+            <div class="project-actions">
+              <a href="images/pcpic.jpg" class="fancybox project-link-btn">
+                <span>Ver Evidencia</span>
+                <i class="fa fa-expand"></i>
+              </a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Proyecto 5: Laboratorio Cisco Routing & Switching -->
+        <article class="project-card photography" data-reveal="fade-up">
+          <div class="project-thumb-wrap">
+            <span class="project-cat-pill">Networking</span>
+            <img src="images/netpic.jpg" alt="Configuración de routers y switches Cisco en rack" loading="lazy" decoding="async">
+            <div class="project-hover-overlay">
+              <a href="images/netpic.jpg" class="fancybox overlay-icon-btn" title="Ampliar fotografía de laboratorio Cisco">
+                <i class="fa fa-search-plus"></i>
+              </a>
+            </div>
+          </div>
+          <div class="project-body">
+            <h3>Enrutamiento &amp; Conmutación en Equipos Cisco</h3>
+            <p>
+              Configuración directa por consola de routers y switches empresariales en rack, segmentación VLAN, direccionamiento IPv4 y diagnóstico de tablas de enrutamiento.
+            </p>
+            <div class="project-tech-list">
+              <span class="tech-tag">Cisco IOS</span>
+              <span class="tech-tag">Routing &amp; Switching</span>
+              <span class="tech-tag">VLANs</span>
+            </div>
+            <div class="project-actions">
+              <a href="images/netpic.jpg" class="fancybox project-link-btn">
+                <span>Ver Evidencia</span>
+                <i class="fa fa-expand"></i>
+              </a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Proyecto 6: Diagnóstico Electrónico & Hardware -->
+        <article class="project-card print" data-reveal="fade-up">
+          <div class="project-thumb-wrap">
+            <span class="project-cat-pill">Soporte Nivel 2</span>
+            <img src="images/elecpic.jpg" alt="Diagnóstico electrónico y mantenimiento de equipos portátiles" loading="lazy" decoding="async">
+            <div class="project-hover-overlay">
+              <a href="images/elecpic.jpg" class="fancybox overlay-icon-btn" title="Ampliar fotografía de diagnóstico electrónico">
+                <i class="fa fa-search-plus"></i>
+              </a>
+            </div>
+          </div>
+          <div class="project-body">
+            <h3>Diagnóstico Electrónico &amp; Mantenimiento IT</h3>
+            <p>
+              Medición electrónica con multímetro digital, detección de fallas de energía, mantenimiento preventivo/correctivo y optimización de equipos portátiles y estaciones de trabajo.
+            </p>
+            <div class="project-tech-list">
+              <span class="tech-tag">Diagnóstico Hardware</span>
+              <span class="tech-tag">Electrónica</span>
+              <span class="tech-tag">Mantenimiento IT</span>
+            </div>
+            <div class="project-actions">
+              <a href="images/elecpic.jpg" class="fancybox project-link-btn">
+                <span>Ver Evidencia</span>
+                <i class="fa fa-expand"></i>
+              </a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- =====================================================================
+       SECCIÓN CONTACTO (#contactMe)
+       ===================================================================== -->
+  <section id="contactMe" class="sec-tech sec-alt">
+    <div class="container">
+      <div class="section-header" data-reveal="fade-up">
+        <span class="section-eyebrow"><i class="fa fa-paper-plane-o"></i> Contacto Directo</span>
+        <h2 class="section-title">¡Conectemos y <span class="text-gradient">Hagámoslo Realidad!</span></h2>
+        <p class="section-subtitle">
+          Gracias por visitar mi portafolio web. Si buscas un profesional versátil para tu equipo o tienes un proyecto tecnológico en mente, escríbeme.
+        </p>
+      </div>
+
+      <div class="row">
+        <!-- Tarjetas de Información Directa -->
+        <div class="col-md-5" data-reveal="fade-right">
+          <div class="contact-info-stack">
+            <div class="contact-info-card">
+              <div class="contact-card-icon"><i class="fa fa-map-marker"></i></div>
+              <div class="contact-card-text">
+                <h4>Ubicación</h4>
+                <address>
+                  Ernesto Córdoba Campos, Las Cumbres<br>
+                  Alhambra, Calle Terranova, Casa #1E<br>
+                  Ciudad de Panamá, Panamá
+                </address>
+              </div>
+            </div>
+
+            <div class="contact-info-card">
+              <div class="contact-card-icon"><i class="fa fa-phone"></i></div>
+              <div class="contact-card-text">
+                <h4>Teléfono &amp; WhatsApp</h4>
+                <p>
+                  <a href="tel:+50768245977">+507 6824-5977</a> ·
+                  <a href="https://w.app/98pmkb" target="_blank" rel="noopener noreferrer">Escribir por WhatsApp</a>
+                </p>
+              </div>
+            </div>
+
+            <div class="contact-info-card">
+              <div class="contact-card-icon"><i class="fa fa-envelope-o"></i></div>
+              <div class="contact-card-text">
+                <h4>Correo Electrónico</h4>
+                <p>
+                  <a href="mailto:alexandermorganzx@gmail.com">alexandermorganzx@gmail.com</a>
+                </p>
+              </div>
+            </div>
+
+            <div class="contact-info-card">
+              <div class="contact-card-icon"><i class="fa fa-linkedin"></i></div>
+              <div class="contact-card-text">
+                <h4>Red Profesional</h4>
+                <p>
+                  <a href="https://www.linkedin.com/in/alexander-morgan-64221a197/" target="_blank" rel="noopener noreferrer">linkedin.com/in/alexander-morgan</a>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Formulario Conectado a EmailJS -->
+        <div class="col-md-7" data-reveal="fade-left">
+          <div class="contact-form-panel">
+            <h3>Envíame un mensaje</h3>
+            <p class="form-lead">Completa los campos y recibiré tu mensaje directamente en mi bandeja de entrada.</p>
+
+            <form id="contactfrm" class="modern-form" role="form">
+              <div class="row">
+                <div class="col-sm-6">
+                  <div class="form-group">
+                    <label for="name">Nombre completo</label>
+                    <input type="text" class="form-control" name="name" id="name" placeholder="Tu nombre o empresa" required>
+                  </div>
+                </div>
+
+                <div class="col-sm-6">
+                  <div class="form-group">
+                    <label for="time">Fecha y hora de envío</label>
+                    <input type="text" class="form-control" name="time" id="time" readonly>
+                  </div>
                 </div>
               </div>
-            </article>
-            <article class="col-sm-4 isotopeItem photography">
-              <div class="portfolio-item"> <img src="images/portfolio/img2.jpg" alt="" />
-                <div class="portfolio-desc align-center">
-                  <div class="folio-info"> <a href="images/portfolio/img2.jpg" class="fancybox">
-                    <h5>Project Name</h5>
-                    <i class="fa fa-plus-square-o fa-2x"></i></a> </div>
-                </div>
+
+              <div class="form-group">
+                <label for="comments">Mensaje o detalles del proyecto</label>
+                <textarea name="message" class="form-control" id="comments" rows="5" placeholder="Cuéntame cómo puedo ayudarte…" required></textarea>
               </div>
-            </article>
-            <article class="col-sm-4 isotopeItem photography">
-              <div class="portfolio-item"> <img src="images/portfolio/img3.jpg" alt="" />
-                <div class="portfolio-desc align-center">
-                  <div class="folio-info"> <a href="images/portfolio/img3.jpg" class="fancybox">
-                    <h5>Project Name</h5>
-                    <i class="fa fa-plus-square-o fa-2x"></i></a> </div>
-                </div>
-              </div>
-            </article>
-            <article class="col-sm-4 isotopeItem print">
-              <div class="portfolio-item"> <img src="images/portfolio/img4.jpg" alt="" />
-                <div class="portfolio-desc align-center">
-                  <div class="folio-info"> <a href="https://docs.google.com/presentation/d/10blvj51fqI7Xau5zdHfP7uNpaHEQT7cS/edit?usp=sharing&ouid=116668856608026461531&rtpof=true&sd=true" class="fancybox">
-                    <h5>IT Inadeh</h5>
-                    <i class="fa fa-plus-square-o fa-2x"></i></a> </div>
-                </div>
-              </div>
-            </article>
-            <article class="col-sm-4 isotopeItem photography">
-              <div class="portfolio-item"> <img src="images/portfolio/img5.jpg" alt="" />
-                <div class="portfolio-desc align-center">
-                  <div class="folio-info"> <a href="images/portfolio/img5.jpg" class="fancybox">
-                    <h5>Project Name</h5>
-                    <i class="fa fa-plus-square-o fa-2x"></i></a> </div>
-                </div>
-              </div>
-            </article>
-            <article class="col-sm-4 isotopeItem webdesign">
-              <div class="portfolio-item"> <img src="images/portfolio/img6.jpg" alt="" />
-                <div class="portfolio-desc align-center">
-                  <div class="folio-info"> <a href="images/portfolio/img6.jpg" class="fancybox">
-                    <h5>Project Name</h5>
-                    <i class="fa fa-plus-square-o fa-2x"></i></a> </div>
-                </div>
-              </div>
-            </article>
-            <article class="col-sm-4 isotopeItem print">
-              <div class="portfolio-item"> <img src="images/portfolio/img7.jpg" alt="" />
-                <div class="portfolio-desc align-center">
-                  <div class="folio-info"> <a href="https://docs.google.com/presentation/d/1xIZdQO0kKdrI7INU5ZFQRFK858r2uofV/edit?usp=sharing&ouid=116668856608026461531&rtpof=true&sd=true" class="fancybox">
-                    <h5>Project Name</h5>
-                    <i class="fa fa-plus-square-o fa-2x"></i></a> </div>
-                </div>
-              </div>
-            </article>
-            <article class="col-sm-4 isotopeItem photography">
-              <div class="portfolio-item"> <img src="images/portfolio/img8.jpg" alt="" />
-                <div class="portfolio-desc align-center">
-                  <div class="folio-info"> <a href="images/portfolio/img8.jpg" class="fancybox">
-                    <h5>Project Name</h5>
-                    <i class="fa fa-plus-square-o fa-2x"></i></a> </div>
-                </div>
-              </div>
-            </article>
-            <article class="col-sm-4 isotopeItem print">
-              <div class="portfolio-item"> <img src="images/portfolio/img9.jpg" alt="" />
-                <div class="portfolio-desc align-center">
-                  <div class="folio-info"> <a href="images/portfolio/img9.jpg" class="fancybox">
-                    <h5>Project Name</h5>
-                    <i class="fa fa-plus-square-o fa-2x"></i></a> </div>
-                </div>
-              </div>
-            </article>
+
+              <button type="submit" id="submitBtn" class="btn-cyber-primary form-submit-btn">
+                <i class="fa fa-paper-plane"></i>
+                <span>Enviar Mensaje</span>
+              </button>
+
+              <div class="result" role="status" aria-live="polite"></div>
+            </form>
           </div>
         </div>
       </div>
     </div>
-  </div>
-</section>
-<!--#################################################################################################################################-->
- 
+  </section>
 
-<!-- Contact -->
-<section id="contactMe" class="page-section secPad">
-  <div class="container">
-    <div class="row">
-      <div class="heading"> 
-        <h2>Conectemos y hagámoslo realidad!</h2>
-        <p>Gracias por visitar mi WEB. No dudes en contactarme.</p>
-      </div>
-    </div>
-
-    <div class="row mrgn30">
-      <form id="contactfrm" role="form">
-        
-        <div class="col-sm-4">
-          <div class="form-group">
-            <label for="name">Name</label>
-            <input type="text" class="form-control" name="name" id="name" placeholder="Enter name" required>
-          </div>
-
-          <div class="form-group">
-            <label for="time">Hora</label>
-            <input type="text" class="form-control" name="time" id="time" readonly>
-          </div>
+  <!-- =====================================================================
+       FOOTER
+       ===================================================================== -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-flex">
+        <div class="footer-socials">
+          <a href="https://www.linkedin.com/in/alexander-morgan-64221a197/" target="_blank" rel="noopener noreferrer" class="social-pill" aria-label="LinkedIn">
+            <i class="fa fa-linkedin"></i>
+          </a>
+          <a href="https://w.app/98pmkb" target="_blank" rel="noopener noreferrer" class="social-pill" aria-label="WhatsApp">
+            <i class="fa fa-whatsapp"></i>
+          </a>
+          <a href="https://twitter.com/" target="_blank" rel="noopener noreferrer" class="social-pill" aria-label="Twitter">
+            <i class="fa fa-twitter"></i>
+          </a>
+          <a href="https://www.facebook.com/profile.php?id=100007186428955" target="_blank" rel="noopener noreferrer" class="social-pill" aria-label="Facebook">
+            <i class="fa fa-facebook"></i>
+          </a>
+          <a href="https://www.instagram.com/melloalex507/?hl=es-la" target="_blank" rel="noopener noreferrer" class="social-pill" aria-label="Instagram">
+            <i class="fa fa-instagram"></i>
+          </a>
         </div>
 
-        <div class="col-sm-4">
-          <div class="form-group">
-            <label for="comments">Comments</label>
-            <textarea name="message" class="form-control" id="comments" cols="3" rows="5" placeholder="Enter your message…" required></textarea>
-          </div>
-
-          <button type="submit" class="btn btn-lg btn-primary">Submit</button>
-          <div class="result"></div>
-        </div>
-
-      </form>
-
-      <div class="col-sm-4">
-        <h4>Address:</h4>
-        <address>
-        Ernesto Cordoba Campos<br>
-        Las Cumbres Alhambra<br>
-        Calle terranova Casa#1E <br>
-        </address>
-
-        <h4>Phone:</h4>
-        <address>
-        +507 68245977<br>
-        </address>
+        <p class="footer-copy">
+          Copyright &copy; 2026 <strong>Alexander Morgan</strong> · Todos los derechos reservados ·
+          <a href="mailto:alexandermorganzx@gmail.com">alexandermorganzx@gmail.com</a>
+        </p>
       </div>
     </div>
-  </div>
-</section>
-<!--#################################################################################################################################-->
-	
-<!-- EmailJS -->
-<script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+  </footer>
 
-<script>
-(function(){
-  emailjs.init("kakcgMfjDtrGc6WnW"); // ← pega tu public key
-})();
+  <!-- Botón Flotante Volver Arriba -->
+  <a href="#top" class="topHome" aria-label="Volver al inicio">
+    <i class="fa fa-chevron-up"></i>
+  </a>
 
-// poner hora automática
-document.getElementById("time").value = new Date().toLocaleString();
+  <!-- =====================================================================
+       SCRIPTS: EMAILJS + LIBRERÍAS DEL PROYECTO + INTERACTIVIDAD
+       ===================================================================== -->
+  <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+  <script>
+    (function () {
+      if (window.emailjs) {
+        emailjs.init("kakcgMfjDtrGc6WnW");
+      }
 
-// enviar formulario
-document.getElementById("contactfrm").addEventListener("submit", function(e) {
-  e.preventDefault();
+      var timeInput = document.getElementById("time");
+      function refreshTimestamp() {
+        if (timeInput) {
+          timeInput.value = new Date().toLocaleString();
+        }
+      }
+      refreshTimestamp();
+      setInterval(refreshTimestamp, 30000);
 
-  emailjs.sendForm("service_8p2l778", "template_joi386o", this)
-    .then(function() {
-      document.querySelector(".result").innerHTML = "Mensaje enviado correctamente ✅";
-    }, function(error) {
-      document.querySelector(".result").innerHTML = "Error al enviar ❌";
-      console.error(error);
-    });
-});
-</script>
+      var contactForm = document.getElementById("contactfrm");
+      var submitBtn = document.getElementById("submitBtn");
+      var resultBox = document.querySelector(".result");
 
-	
-<!--/.page-section-->
-<footer class="copyright">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-6">
-        <div class="social pull-left"> <a href="#"><i class="fa fa-twitter"></i></a> <a href="#"><i class="fa fa-facebook"></i></a><a href="#"><i class="fa fa-github"></i></a> </div>
-      </div>
-      <div class="col-md-6"> <span class="pull-right">Copyright 2026 | All Rights Reserved  <a href="">alexandermorganzx@gmail.com</a></span> </div>
-    </div>
-    <!-- / .row --> 
-  </div>
-</footer>
-<a href="#top" class="topHome"><i class="fa fa-chevron-up fa-2x"></i></a> 
+      if (contactForm) {
+        contactForm.addEventListener("submit", function (e) {
+          e.preventDefault();
+          refreshTimestamp();
 
-<!--[if lte IE 8]><script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script><![endif]--> 
-<script src="js/modernizr-latest.js"></script> 
-<script src="js/jquery-1.8.2.min.js" type="text/javascript"></script> 
-<script src="js/bootstrap.min.js" type="text/javascript"></script> 
-<script src="js/jquery.isotope.min.js" type="text/javascript"></script> 
-<script src="js/fancybox/jquery.fancybox.pack.js" type="text/javascript"></script> 
-<script src="js/jquery.nav.js" type="text/javascript"></script> 
-<script src="js/jquery.cslider.js" type="text/javascript"></script> 
-<script src="js/jquery.diagram.js"></script> 
-<script src="js/custom.js" type="text/javascript"></script> 
-<script src="js/owl-carousel/owl.carousel.js"></script>
+          if (submitBtn) {
+            submitBtn.disabled = true;
+            submitBtn.innerHTML = '<i class="fa fa-spinner fa-spin"></i> <span>Enviando...</span>';
+          }
+          if (resultBox) {
+            resultBox.className = "result";
+            resultBox.textContent = "";
+          }
+
+          emailjs.sendForm("service_8p2l778", "template_joi386o", this)
+            .then(function () {
+              if (resultBox) {
+                resultBox.className = "result success";
+                resultBox.innerHTML = "Mensaje enviado correctamente ✅ ¡Gracias por escribirme!";
+              }
+              contactForm.reset();
+              refreshTimestamp();
+            }, function (error) {
+              if (resultBox) {
+                resultBox.className = "result error";
+                resultBox.innerHTML = "Hubo un error al enviar el mensaje ❌ Intenta nuevamente o contáctame por WhatsApp.";
+              }
+              console.error(error);
+            })
+            .finally(function () {
+              if (submitBtn) {
+                submitBtn.disabled = false;
+                submitBtn.innerHTML = '<i class="fa fa-paper-plane"></i> <span>Enviar Mensaje</span>';
+              }
+            });
+        });
+      }
+    })();
+  </script>
+
+  <script src="js/modernizr-latest.js"></script>
+  <script src="js/jquery-1.8.2.min.js" type="text/javascript"></script>
+  <script src="js/bootstrap.min.js" type="text/javascript"></script>
+  <script src="js/fancybox/jquery.fancybox.pack.js" type="text/javascript"></script>
+  <script src="js/custom.js" type="text/javascript"></script>
 </body>
 </html>
